@@ -9,6 +9,7 @@
 #include "cmsis_os2.h"
 #include "stm32f1xx_hal.h"
 #include "main.h"
+#include "tapSexLog.h"
 
 #define TAPSEX_TASK_NAME          "TapSexDriveTask"
 #define TAPSEX_TASK_STACKSIZE     1024
@@ -71,6 +72,7 @@ void TapSexStrengthEvent(void)
 
 void HAL_GPIO_EXTI_Callback(uint16_t mode)
 {
+    TAPSEX_LOG_INFO("GPIO exit get %d", mode);
     switch (mode) {
         case TAPSEX_POWER_SWITCH:
             TapSexPowerEvent();
@@ -129,7 +131,7 @@ uint16_t TapSexUpdatePWM(void)
 void TapSexDriveTask(void *args)
 {
     UNUSED(args);
-    printf("task run\n");
+    TAPSEX_LOG_ERROR("task run\n");
     while (1) {
         if (g_tapSexStatus.power == TAPSEX_POWER_OFF) {
             TapSexSetPwm(TAPSEX_STRENGTH_OFF);

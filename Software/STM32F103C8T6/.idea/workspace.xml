@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d313ec3e-c5fe-4fb1-8f89-4663c6bd44dd" name="Changes" comment="" />
+    <list default="true" id="d313ec3e-c5fe-4fb1-8f89-4663c6bd44dd" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/tapSex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tapSex.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1649530190071</updated>
       <workItem from="1649530198030" duration="1041000" />
-      <workItem from="1649531328696" duration="12649000" />
+      <workItem from="1649531328696" duration="15236000" />
     </task>
     <servers />
   </component>
