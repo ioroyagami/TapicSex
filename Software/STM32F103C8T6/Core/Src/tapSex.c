@@ -92,29 +92,27 @@ void HAL_GPIO_EXTI_Callback(uint16_t mode)
 
 static void TapSexSetPwm(uint16_t value)
 {
-    extern TIM_HandleTypeDef htim4;
     TIM_OC_InitTypeDef sConfigOC;
     sConfigOC.OCMode = TIM_OCMODE_PWM1;
     sConfigOC.Pulse = TAPSEX_PWM_PULSE_MAX * value / TAPSEX_STRENGTH_MAX;
     sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
     sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
     for (int i = 0; i < TAPSEX_PWM_CHANNEL_NUM; i++) {
-        HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, g_channelGroup[i]);
-        HAL_TIM_PWM_Start(&htim4, g_channelGroup[i]);
+        HAL_TIM_PWM_ConfigChannel(&g_htim4, &sConfigOC, g_channelGroup[i]);
+        HAL_TIM_PWM_Start(&g_htim4, g_channelGroup[i]);
     }
 }
 
 static void TapSexSetWave(uint16_t value)
 {
-    extern TIM_HandleTypeDef htim4;
     TIM_OC_InitTypeDef sConfigOC;
     sConfigOC.OCMode = TIM_OCMODE_PWM1;
     sConfigOC.Pulse = value;
     sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
     sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
     for (int i = 0; i < TAPSEX_PWM_CHANNEL_NUM; i++) {
-        HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, g_channelGroup[i]);
-        HAL_TIM_PWM_Start(&htim4, g_channelGroup[i]);
+        HAL_TIM_PWM_ConfigChannel(&g_htim4, &sConfigOC, g_channelGroup[i]);
+        HAL_TIM_PWM_Start(&g_htim4, g_channelGroup[i]);
     }
 }
 
