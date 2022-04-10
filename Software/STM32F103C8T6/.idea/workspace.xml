@@ -13,7 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d313ec3e-c5fe-4fb1-8f89-4663c6bd44dd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/tapSex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tapSex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +73,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake 应用程序.STM32F103C8T6.elf" />
       <item itemvalue="OpenOCD 下载并运行.OCD STM32F103C8T6" />
@@ -92,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1649530190071</updated>
       <workItem from="1649530198030" duration="1041000" />
-      <workItem from="1649531328696" duration="15236000" />
+      <workItem from="1649531328696" duration="15635000" />
+      <workItem from="1649591945112" duration="521000" />
     </task>
     <servers />
   </component>
