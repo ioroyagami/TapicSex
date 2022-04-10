@@ -7,7 +7,7 @@
 #include "task.h"
 #include "tapSexDef.h"
 #include "cmsis_os2.h"
-#include "stm32f1xx_hal.h"
+
 #include "main.h"
 #include "tapSexLog.h"
 
@@ -50,8 +50,10 @@ typedef struct {
 
 TaskHandle_t g_tapSexTaskHandle = NULL;
 static TapSexStatus g_tapSexStatus = {TAPSEX_POWER_OFF, TAPSEX_MODE_NORMAL, TAPSEX_STRENGTH_DEFAULT};
-static TIM_HandleTypeDef g_htim;
 static uint32_t g_channelGroup[TAPSEX_PWM_CHANNEL_NUM] = {TIM_CHANNEL_1, TIM_CHANNEL_2, TIM_CHANNEL_3, TIM_CHANNEL_4};
+static TIM_HandleTypeDef g_htim4;
+static TIM_HandleTypeDef g_htim3;
+
 void TapSexPowerEvent(void)
 {
     g_tapSexStatus.power = !g_tapSexStatus.power;
@@ -90,27 +92,29 @@ void HAL_GPIO_EXTI_Callback(uint16_t mode)
 
 static void TapSexSetPwm(uint16_t value)
 {
+    extern TIM_HandleTypeDef htim4;
     TIM_OC_InitTypeDef sConfigOC;
     sConfigOC.OCMode = TIM_OCMODE_PWM1;
     sConfigOC.Pulse = TAPSEX_PWM_PULSE_MAX * value / TAPSEX_STRENGTH_MAX;
     sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
     sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
     for (int i = 0; i < TAPSEX_PWM_CHANNEL_NUM; i++) {
-        HAL_TIM_PWM_ConfigChannel(&g_htim, &sConfigOC, g_channelGroup[i]);
-        HAL_TIM_PWM_Start(&g_htim, g_channelGroup[i]);
+        HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, g_channelGroup[i]);
+        HAL_TIM_PWM_Start(&htim4, g_channelGroup[i]);
     }
 }
 
 static void TapSexSetWave(uint16_t value)
 {
+    extern TIM_HandleTypeDef htim4;
     TIM_OC_InitTypeDef sConfigOC;
     sConfigOC.OCMode = TIM_OCMODE_PWM1;
     sConfigOC.Pulse = value;
     sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
     sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
     for (int i = 0; i < TAPSEX_PWM_CHANNEL_NUM; i++) {
-        HAL_TIM_PWM_ConfigChannel(&g_htim, &sConfigOC, g_channelGroup[i]);
-        HAL_TIM_PWM_Start(&g_htim, g_channelGroup[i]);
+        HAL_TIM_PWM_ConfigChannel(&htim4, &sConfigOC, g_channelGroup[i]);
+        HAL_TIM_PWM_Start(&htim4, g_channelGroup[i]);
     }
 }
 
@@ -165,8 +169,13 @@ int TapSexTaskInit(void)
     return TAPSEX_OK;
 }
 
-void TapSexInit(void)
+void TapSexSetHtim3(TIM_HandleTypeDef htim)
 {
-    g_htim = GetTimHandle();
+    g_htim3 = htim;
+}
+
+void TapSexSetHtim4(TIM_HandleTypeDef htim)
+{
+    g_htim4 = htim;
 }
 
