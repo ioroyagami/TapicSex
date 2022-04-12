@@ -3177,53 +3177,53 @@ LOAD f:/toolchains/arm-none-eabi-gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../.
 LOAD f:/toolchains/arm-none-eabi-gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD f:/toolchains/arm-none-eabi-gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x1bf43
+.debug_info     0x00000000    0x1bf2b
  .debug_info    0x00000000     0x173f CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/main.c.obj
  .debug_info    0x0000173f     0x120d CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_info    0x0000294c      0x14a CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_info    0x00002a96      0x835 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/syscalls.c.obj
  .debug_info    0x000032cb      0x248 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00003513      0xd08 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj
- .debug_info    0x0000421b      0x7a8 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x000049c3      0xd8a CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x0000574d      0x66f CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00005dbc      0xa36 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x000067f2     0x1d70 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_info    0x00008562     0x3b00 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_info    0x0000c062     0x19e9 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_info    0x0000da4b     0x1c8b CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x0000f6d6     0x4b1f CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_info    0x000141f5      0x2da CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_info    0x000144cf      0x52b CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
- .debug_info    0x000149fa      0x471 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_info    0x00014e6b     0x2733 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_info    0x0001759e     0x301a CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_info    0x0001a5b8     0x1969 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_info    0x0001bf21       0x22 CMakeFiles/STM32F103C8T6.elf.dir/startup/startup_stm32f103xb.s.obj
+ .debug_info    0x00003513      0xcf0 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj
+ .debug_info    0x00004203      0x7a8 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x000049ab      0xd8a CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00005735      0x66f CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x00005da4      0xa36 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x000067da     0x1d70 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_info    0x0000854a     0x3b00 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_info    0x0000c04a     0x19e9 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_info    0x0000da33     0x1c8b CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x0000f6be     0x4b1f CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_info    0x000141dd      0x2da CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_info    0x000144b7      0x52b CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
+ .debug_info    0x000149e2      0x471 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_info    0x00014e53     0x2733 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_info    0x00017586     0x301a CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_info    0x0001a5a0     0x1969 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_info    0x0001bf09       0x22 CMakeFiles/STM32F103C8T6.elf.dir/startup/startup_stm32f103xb.s.obj
 
-.debug_abbrev   0x00000000     0x313f
+.debug_abbrev   0x00000000     0x312c
  .debug_abbrev  0x00000000      0x2a7 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/main.c.obj
  .debug_abbrev  0x000002a7      0x231 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_abbrev  0x000004d8       0xa0 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_abbrev  0x00000578      0x1da CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/syscalls.c.obj
  .debug_abbrev  0x00000752      0x13e CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x00000890      0x284 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj
- .debug_abbrev  0x00000b14      0x1f4 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x00000d08      0x341 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x00001049      0x1e6 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x0000122f      0x27a CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x000014a9      0x23b CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_abbrev  0x000016e4      0x23e CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_abbrev  0x00001922      0x241 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00001b63      0x254 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x00001db7      0x418 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_abbrev  0x000021cf      0x106 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_abbrev  0x000022d5      0x27e CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
- .debug_abbrev  0x00002553      0x238 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_abbrev  0x0000278b      0x38c CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_abbrev  0x00002b17      0x313 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_abbrev  0x00002e2a      0x303 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_abbrev  0x0000312d       0x12 CMakeFiles/STM32F103C8T6.elf.dir/startup/startup_stm32f103xb.s.obj
+ .debug_abbrev  0x00000890      0x271 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj
+ .debug_abbrev  0x00000b01      0x1f4 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x00000cf5      0x341 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001036      0x1e6 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000121c      0x27a CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x00001496      0x23b CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_abbrev  0x000016d1      0x23e CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_abbrev  0x0000190f      0x241 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00001b50      0x254 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x00001da4      0x418 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_abbrev  0x000021bc      0x106 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_abbrev  0x000022c2      0x27e CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
+ .debug_abbrev  0x00002540      0x238 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_abbrev  0x00002778      0x38c CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_abbrev  0x00002b04      0x313 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_abbrev  0x00002e17      0x303 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_abbrev  0x0000311a       0x12 CMakeFiles/STM32F103C8T6.elf.dir/startup/startup_stm32f103xb.s.obj
 
 .debug_loc      0x00000000    0x165d2
  .debug_loc     0x00000000       0x25 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/main.c.obj
@@ -3317,29 +3317,29 @@ LOAD f:/toolchains/arm-none-eabi-gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v
  .debug_ranges  0x00001580       0xd0 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
  .debug_ranges  0x00001650       0x20 CMakeFiles/STM32F103C8T6.elf.dir/startup/startup_stm32f103xb.s.obj
 
-.debug_line     0x00000000    0x17b1b
+.debug_line     0x00000000    0x17b19
  .debug_line    0x00000000      0x7dd CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/main.c.obj
  .debug_line    0x000007dd      0x4d6 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .debug_line    0x00000cb3      0x2cf CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .debug_line    0x00000f82      0x452 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/syscalls.c.obj
  .debug_line    0x000013d4      0x254 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x00001628      0x5d1 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj
- .debug_line    0x00001bf9      0x58c CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x00002185      0x66f CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x000027f4      0x619 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00002e0d      0xc62 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00003a6f     0x24a0 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_line    0x00005f0f     0x4694 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
- .debug_line    0x0000a5a3     0x1b94 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
- .debug_line    0x0000c137     0x20f1 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x0000e228     0x2d77 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_line    0x00010f9f      0x3aa CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_line    0x00011349      0x65b CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
- .debug_line    0x000119a4      0x693 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_line    0x00012037     0x2037 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_line    0x0001406e     0x2bfd CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_line    0x00016c6b      0xe0b CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
- .debug_line    0x00017a76       0xa5 CMakeFiles/STM32F103C8T6.elf.dir/startup/startup_stm32f103xb.s.obj
+ .debug_line    0x00001628      0x5cf CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj
+ .debug_line    0x00001bf7      0x58c CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00002183      0x66f CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x000027f2      0x619 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x00002e0b      0xc62 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00003a6d     0x24a0 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_line    0x00005f0d     0x4694 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj
+ .debug_line    0x0000a5a1     0x1b94 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj
+ .debug_line    0x0000c135     0x20f1 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x0000e226     0x2d77 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_line    0x00010f9d      0x3aa CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_line    0x00011347      0x65b CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM3/port.c.obj
+ .debug_line    0x000119a2      0x693 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_line    0x00012035     0x2037 CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_line    0x0001406c     0x2bfd CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_line    0x00016c69      0xe0b CMakeFiles/STM32F103C8T6.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_line    0x00017a74       0xa5 CMakeFiles/STM32F103C8T6.elf.dir/startup/startup_stm32f103xb.s.obj
 
 .debug_str      0x00000000     0x71f6
  .debug_str     0x00000000     0x1216 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/main.c.obj
@@ -3353,7 +3353,7 @@ LOAD f:/toolchains/arm-none-eabi-gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v
  .debug_str     0x00001967       0xa3 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                 0x29c (size before relaxing)
  .debug_str     0x00001a0a      0x2d9 CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj
-                                0xa19 (size before relaxing)
+                                0xa13 (size before relaxing)
  .debug_str     0x00001ce3      0x324 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x86c (size before relaxing)
  .debug_str     0x00002007      0x3e1 CMakeFiles/STM32F103C8T6.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj

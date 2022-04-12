@@ -12,7 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d313ec3e-c5fe-4fb1-8f89-4663c6bd44dd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Core/Src/tapSex.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/tapSex.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/STM32F103C8T6.elf.dir/Core/Src/tapSex.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/STM32F103C8T6.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +75,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake 应用程序.STM32F103C8T6.elf">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="STM32F103C8T6.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="STM32F103C8T6" TARGET_NAME="STM32F103C8T6.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="STM32F103C8T6" RUN_TARGET_NAME="STM32F103C8T6.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -92,7 +95,9 @@
       <updated>1649530190071</updated>
       <workItem from="1649530198030" duration="1041000" />
       <workItem from="1649531328696" duration="15635000" />
-      <workItem from="1649591945112" duration="2059000" />
+      <workItem from="1649591945112" duration="2669000" />
+      <workItem from="1649686168082" duration="614000" />
+      <workItem from="1649691869565" duration="27000" />
     </task>
     <servers />
   </component>
